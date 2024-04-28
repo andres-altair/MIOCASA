@@ -13,6 +13,7 @@
             //lect(ruta);   
             Console.WriteLine("escribe nombre");
             string nombre = Console.ReadLine();
+            ruta = ruta + "\\" + "hola";
             Console.WriteLine("escribe fecha");
             DateTime dateTime  =Convert.ToDateTime(Console.ReadLine());
             Console.WriteLine("cantidad");
